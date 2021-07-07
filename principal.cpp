@@ -32,7 +32,7 @@ int main()
 	int op,flag;
 	float matriz1[5][5],matriz2[5][5],resultado[5][5]={{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0},{0,0,0,0,0}};
 	do{
-	system("clear");
+	system("cls");
 	cout<<"OPERACIONES CON MATRICES EN 2 DIMENSIO"<<endl<<endl;
 	cout<<"1.- Ingresar los valores de las matrices \n";
 	cout<<"2.- Obtener el producto de las dos matrices \n";
@@ -40,7 +40,7 @@ int main()
 	cout<<"4.- Mostrar la transpuesta de la primera matriz \n";
 	cout<<"5.- Calcular la media y varianza y compararlas \n";
 	cout<<"0.- Salir del menu \n";
-        cout<<" Ingrese una opción : "; cin>>op;
+        cout<<" Ingrese una opciÃ³n : "; cin>>op;
 	switch(op){
 		case 1:
 	cout<<"ESTA FUNCION PERMITE INGRESAR EL VALOR A LAS MATRICES";
@@ -69,7 +69,7 @@ int main()
 		break;
 		}
 		  if(op!=0){
-			    cout << "Opcion no permitida !\n" <<  "Press Enter to continue\n";
+			    cout << "\nOpcion no permitida !\n" <<  "Press Enter to continue\n";
     // pause the program until user input
 	           flag=cin.ignore().get();
 		  }		  
